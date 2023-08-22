@@ -1,42 +1,65 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width," initial-scale="1.0">
-        <title>Digital Clock</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="clock.js"></script>
-    </head>
-    <body>
-        <!--Main Div-->>
-        <div class="main-container">
-            <!--Animated Border-->
-            <div class="digital-clock-border">
-                <!--Parent div for digitak clock-->
-                <div class="digital-clock">
-                    <!--Time heading div-->
-                    <div class="time-heading">The Current Time is</div>
-                    <!--Div for displaying time and its headings-->
-                    <div class="time">
-                        <!--Hours div and heading-->
-                        <div class="hours-container">
-                            <span id="hours">00</span>
-                            <h5>Hours</h5>
-                        </div>
-                        <span>:</span>
-                         <!--Minutes div and heading-->
-                        <div class="minutes-container">
-                            <span id="minutes">00</span>
-                            <h5>Minutes</h5>
-                        </div>
-                        <span>:</span>
-                         <!--Seconds div and heading-->
-                        <div class="seconds-container">
-                            <span id="seconds">00</span>
-                            <h5>Seconds</h5>
-                        </div>
+<head>
+    <!-- Viewport settings for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Page title -->
+    <title>Digital Clock</title>
+    
+    <!-- External CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- External JavaScript file for clock functionality -->
+    <script src="clock.js"></script>
+</head>
+<body>
+    <!-- Main container for the digital clock -->
+    <div class="main-container">
+        
+        <!-- Animated border surrounding the digital clock -->
+        <div class="digital-clock-border">
+            
+            <!-- Parent container for the digital clock display -->
+            <div class="digital-clock">
+                
+                <!-- Heading displaying the current time -->
+                <div class="time-heading">
+                    The Current Time is
+                </div>
+                
+                <!-- Container for displaying time digits -->
+                <div class="time">
+                    
+                    <!-- Container for displaying hours -->
+                    <div class="hours-container">
+                        <span id="hours">00</span>
+                        <h5>Hours</h5>
+                    </div>
+                    
+                    <!-- Colon separator between hours and minutes -->
+                    <span class="colons">:</span>
+                    
+                    <!-- Container for displaying minutes -->
+                    <div class="minutes-container">
+                        <span id="minutes">00</span>
+                        <h5>Minutes</h5>
+                    </div>
+                    
+                    <!-- Colon separator between minutes and seconds -->
+                    <span class="colons">:</span>
+                    
+                    <!-- Container for displaying seconds -->
+                    <div class="seconds-container">
+                        <span id="seconds">00</span>
+                        <h5>Seconds</h5>
                     </div>
                 </div>
-             </div>
-        </div>
-    </body>
+                
+            </div> <!-- End of digital-clock -->
+            
+        </div> <!-- End of digital-clock-border -->
+        
+    </div> <!-- End of main-container -->
+</body>
 </html>
