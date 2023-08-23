@@ -12,6 +12,10 @@ This web application displays a digital clock with a sleek design. It features r
 - [Files](#files)
 - [Media Queries](#media-queries)
 
+## Demo
+
+![Analog Clock Screenshot](demo-screenshot.png)
+
 ## Features
 
 - Real-time display of hours, minutes, and seconds.
